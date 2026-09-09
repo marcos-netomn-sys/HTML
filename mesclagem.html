@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">Exercicio</th>
+            </tr>
+        </thead>
+        <thead style="background-color: brown;">
+            <tr>
+                <th>coluna A</th>
+                <th>coluna B</th>
+                <th>coluna C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">A+B juntas colspan=2</td>
+                <td>C normal</td>
+            </tr>
+            <tr>
+                <td>A normal</td>
+                <td rowspan="2" >B ocupa 2 linhas</td>
+                <td>C normal</td>
+            </tr>
+            <tr>
+                <td>A normal</td>
+                <td>C normal</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">A B C</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">A + B + C juntas</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
